@@ -1,0 +1,1 @@
+require'lhernz'.init()
