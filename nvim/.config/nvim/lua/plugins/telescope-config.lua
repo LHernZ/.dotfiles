@@ -1,7 +1,7 @@
-require"telescope".setup{}
+require'telescope'.setup {defaults = {color_devicons = true}}
 
 local map = vim.api.nvim_set_keymap
-local options = { noremap = true }
+local options = {noremap = true}
 
 -- Builtin
 map('n', '<leader>fe', '<CMD>lua require("telescope.builtin").file_browser{ cwd = vim.fn.expand("%:p:h") }<CR>', options)

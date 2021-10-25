@@ -4,7 +4,7 @@ local fn = vim.fn
 local g = vim.g
 local opt = vim.opt
 
-g.mapleader = ','
+g.mapleader = ' '
 opt.swapfile = false
 
 opt.number = true
@@ -26,7 +26,7 @@ opt.synmaxcol = 240
 opt.scrolloff = 8
 
 opt.termguicolors = true
-g.tokyonight_style = "night"
+g.tokyonight_style = 'night'
 g.tokyonight_transparent = true
 cmd [[colorscheme tokyonight]]
 
