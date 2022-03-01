@@ -65,6 +65,8 @@ return require("packer").startup(function(use)
 
   use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
 
+  use ('Shatur/neovim-ayu')
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if packer_bootstrap then

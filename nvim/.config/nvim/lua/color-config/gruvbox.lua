@@ -1,4 +1,12 @@
-vim.opt.termguicolors = true
-vim.o.background = "dark"
+-- vim.opt.termguicolors = true
+-- vim.o.background = "dark"
+-- 
+-- vim.cmd([[colorscheme gruvbox]])
+--
+--
+require('ayu').colorscheme()
 
-vim.cmd([[colorscheme gruvbox]])
+require('ayu').setup({
+  mirage = false,
+  overrides = {}
+})
