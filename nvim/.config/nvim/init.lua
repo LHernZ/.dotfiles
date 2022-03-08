@@ -10,4 +10,5 @@ require("lsp-config.snips")
 require("treesitter-config")
 require("lualine-config")
 require("indent-config")
+require("gitsigns-config")
 

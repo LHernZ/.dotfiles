@@ -50,6 +50,13 @@ return require("packer").startup(function(use)
 
   use('williamboman/nvim-lsp-installer')
 
+  use {
+    'lewis6991/gitsigns.nvim',
+    requires = {
+      'nvim-lua/plenary.nvim'
+    },
+  }
+
   use {'JoosepAlviste/nvim-ts-context-commentstring'}
   use {
     'terrortylor/nvim-comment',
