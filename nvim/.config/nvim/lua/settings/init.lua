@@ -7,7 +7,7 @@ set.tabstop = 2
 set.softtabstop = 2
 set.smartindent = true
 
-set.hlsearch = true
+set.hlsearch = false
 set.incsearch = true
 set.ignorecase = true
 set.smartcase = true
