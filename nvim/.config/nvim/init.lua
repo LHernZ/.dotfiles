@@ -6,6 +6,8 @@ require("mappings-config")
 require("lsp-config.lsp")
 require("lsp-config.cmp")
 require("lsp-config.null-ls")
+require("lsp-config.snips")
 require("treesitter-config")
 require("lualine-config")
 require("indent-config")
+
