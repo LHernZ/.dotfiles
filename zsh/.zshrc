@@ -3,7 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export STOW_FOLDERS='nvim,zsh'
+export STOW_FOLDERS='nvim,zsh,i3'
 export DOTFILES=~/.dotfiles
 
 # Set name of the theme to load --- if set to "random", it will
@@ -101,5 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias v="/usr/local/bin/nvim"
+alias v="/usr/bin/nvim"
 alias t="tmux"
