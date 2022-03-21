@@ -90,5 +90,5 @@ lualine.setup({
 	},
 	tabline = {},
 	extensions = {},
-  theme = 'ayu'
+	theme = "ayu",
 })
